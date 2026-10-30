@@ -40,7 +40,7 @@ unicode-ident = { version = "1.0", default-features = false }
 unicode-segmentation = { version = "1.12.0", default-features = false, optional = true }
 
 [dev-dependencies]
-base64 = { version = "0.22", default-features = false, features = ["std"] }
+base64 = { version = "0.22.1", default-features = false, features = ["std"] }
 bytes = { version = "1.3", default-features = false, features = ["serde"] }
 option_set = { version = "0.3", default-features = false }
 serde = { version = "1.0.193", default-features = false, features = ["std", "derive"] }
